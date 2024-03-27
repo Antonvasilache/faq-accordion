@@ -1,15 +1,5 @@
 const accordionContainer = document.querySelector(".accordion");
 const accordionItems = document.querySelectorAll(".accordion-content");
-const dividers = document.querySelectorAll(".accordion-divider");
-
-dividers.forEach((divider) => {
-  divider.addEventListener("keydown", (e) => {
-    const key = e.key.toLowerCase();
-
-    if (key === "tab" || key === "arrowup" || key === "arrowdown")
-      e.preventDefault();
-  });
-});
 
 //navigation using up and down keys between the accordion items
 function navigateAccordion(e) {
