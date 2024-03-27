@@ -36,7 +36,8 @@ body {
   width: 37.5rem;
   padding: 2.5rem;
   border-radius: 1rem;
-  gap: 1.7rem;
+  gap: 1.5rem;
+  box-shadow: 0 2rem 3.5rem rgba(80, 0, 118, 0.1);
 }
 
 .accordion-header {
@@ -57,7 +58,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  padding-bottom: 1.7rem;
+  padding-bottom: 1.5rem;
   border-bottom: 1px solid var(--Light-pink);
 }
 
